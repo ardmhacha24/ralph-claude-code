@@ -1,8 +1,10 @@
 MIT License
 
-Copyright (c) 2026 Neil Barden (ardmhacha24)
+Copyright (c) 2026 Neil Barlow (ardmhacha24)
 
-Based on Ralph by snarktank (https://github.com/snarktank/ralph)
+Based on:
+- Ralph pattern by Geoffrey Huntley (https://ghuntley.com/ralph/)
+- Amp CLI adaptation by snarktank (https://github.com/snarktank/ralph)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

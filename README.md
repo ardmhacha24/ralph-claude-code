@@ -2,7 +2,9 @@
 
 > Autonomous AI agent loop for feature development with a superior 4-layer learning system
 
-Ralph automates software development by running Claude Code CLI in an iterative loop, implementing user stories one at a time while learning from its own progress. Unlike the original Ralph (designed for Amp CLI), this version includes **automatic conversation tracking, insight extraction, and a comprehensive learning system**.
+Ralph automates software development by running Claude Code CLI in an iterative loop, implementing user stories one at a time while learning from its own progress.
+
+**Lineage**: Originally conceived by [Geoffrey Huntley](https://ghuntley.com/ralph/), adapted for Amp CLI by [snarktank](https://github.com/snarktank/ralph), and now enhanced for Claude Code CLI with **automatic conversation tracking, insight extraction, and a superior 4-layer learning system**.
 
 ## ✨ Key Features
 
@@ -153,11 +155,16 @@ This shows:
 
 ## 🤝 Contributing
 
-Contributions welcome! This is an adaptation of the [original Ralph by snarktank](https://github.com/snarktank/ralph), enhanced for Claude Code CLI with:
-- Automatic session tracking
-- JSONL conversation parsing
-- Background insight extraction
-- 4-layer learning architecture
+Contributions welcome! This is the Claude Code CLI adaptation of Ralph, building on:
+- [Geoffrey Huntley's original Ralph pattern](https://ghuntley.com/ralph/) - The foundational autonomous loop concept
+- [snarktank's Amp CLI version](https://github.com/snarktank/ralph) - Thread tracking and 3-layer learning
+
+Enhanced for Claude Code CLI with:
+- Automatic session tracking via conversation IDs
+- JSONL conversation parsing and analysis
+- Background insight extraction after each iteration
+- Superior 4-layer learning architecture
+- Interactive setup wizard and comprehensive documentation
 
 ## 📄 License
 
@@ -165,8 +172,24 @@ Same as original Ralph project.
 
 ## 🙏 Credits
 
-- **Original Ralph** by [snarktank](https://github.com/snarktank/ralph)
-- **Adapted for Claude Code CLI** with enhanced learning system
+Ralph has evolved through three generations:
+
+1. **Original Ralph Pattern** by [Geoffrey Huntley](https://ghuntley.com/ralph/)
+   - Conceived the elegant autonomous loop concept: `while :; do cat PROMPT.md | claude-code ; done`
+   - Introduced the idea of persistent memory through files between iterations
+   - Article: [ghuntley.com/ralph](https://ghuntley.com/ralph/)
+
+2. **Amp CLI Adaptation** by [snarktank (Ryan Carson)](https://github.com/snarktank/ralph)
+   - Adapted Ralph for Amp CLI with thread URLs and skills system
+   - Added 3-layer learning system and thread tracking
+   - Repository: [github.com/snarktank/ralph](https://github.com/snarktank/ralph)
+
+3. **This Claude Code CLI Version** by [Neil Barlow](https://github.com/ardmhacha24)
+   - Enhanced with 4-layer learning system (added conversation log parsing)
+   - Automatic session ID capture and insight extraction
+   - Local JSONL conversation storage for deep debugging
+   - Interactive setup wizard and comprehensive documentation
+   - Browser testing integration and quality assurance framework
 
 ## 📞 Support
 
