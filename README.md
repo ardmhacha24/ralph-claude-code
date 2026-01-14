@@ -60,18 +60,7 @@ cp examples/simple-ui-fix.prd.json prd.json
 - **[LEARNING_SYSTEM.md](./LEARNING_SYSTEM.md)** - How the 4-layer learning works
 - **[flowchart/](./flowchart/)** - Interactive visualization
 
-## 🎯 What Makes This Different?
-
-| Feature | Original Ralph (Amp) | This (Claude Code) |
-|---------|---------------------|-------------------|
-| **Learning Layers** | 3 | **4** (added conversation logs) |
-| **Session Tracking** | Thread URLs | **Auto-captured session IDs** |
-| **Insight Extraction** | Manual | **Automatic after each iteration** |
-| **Conversation Logs** | ❌ | ✅ **Full JSONL logs** |
-| **Browser Testing** | Optional | **Required for UI changes** |
-| **Storage** | External service | **Local files (git-versioned)** |
-
-### Superior Learning System
+### Learning System
 
 **Layer 1: Codebase Patterns** - Consolidated wisdom, read first every iteration
 **Layer 2: Progress Entries** - Structured learnings with session IDs
