@@ -1,6 +1,6 @@
 # Ralph for Claude Code CLI
 
-> Autonomous AI agent loop for feature development with a superior 4-layer learning system
+> Autonomous AI agent loop for feature development with a 4-layer learning system
 
 Ralph automates software development by running Claude Code CLI in an iterative loop, implementing user stories one at a time while learning from its own progress.
 
